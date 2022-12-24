@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  background-color: #dc6c5e;
+  border: 2px solid black;
+  width: 80vh;
+  height: 65vh;
+  margin: 100px auto;
+  position: relative;
+  padding: 50px 10px;
+  border-radius: 10px;
+}
+span {
+  color: yellow;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+  opacity: 0.7;
+  font-weight: 900;
+}
+h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  top: -45px;
+  left: 40%;
+}
+footer {
+  text-align: center;
+  margin-top: -60px;
+}
+footer a {
+  text-decoration: none;
+  color: blue;
+}
